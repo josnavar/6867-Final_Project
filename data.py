@@ -9,7 +9,7 @@ import csv
 dirty_data_dir="bump.csv"
 out_dir="nuts"
 
-
+#@AUTHOR:Jose Navarro
 def cleanRepetitions(input_dir,output_dir):
     with open(input_dir,"rb") as csvfile:
         with open(output_dir, "wb") as filer:

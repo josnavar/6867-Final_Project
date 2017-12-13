@@ -5,6 +5,7 @@ import torch.nn as nn
 import torch.utils.data as data
 from tqdm import tqdm
 
+#@AUTHOR: JOSE NAVARRO
 class Encoder(nn.Module):
     def __init__(self,h1,batch):
         super(Encoder, self).__init__()

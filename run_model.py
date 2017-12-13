@@ -10,6 +10,7 @@ from torch.autograd import Variable
 from data import*
 from net import*
 
+#@AUTHOR: JOSE NAVARRO
 NUM_SAMPLES=0
 parser=argparse.ArgumentParser(description="867 BTC Project")
 parser.add_argument('--disable-cuda',action="store_true",help="Disable CUDA")
